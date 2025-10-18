@@ -46,7 +46,7 @@ The backend exposes endpoints that return these summaries in JSON format, which 
 
 ### Youtube video link
 
-Here is the youtube video link showing how to use ScholarSwipe: [Youtube.com](https://youtu.be/Zqk7BLMhx9I)
+Here is the youtube video link showing how to use [ScholarSwipe](https://youtu.be/Zqk7BLMhx9I)
 
 ### Prerequisites
 
