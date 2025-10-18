@@ -44,6 +44,10 @@ The backend exposes endpoints that return these summaries in JSON format, which 
 
 ## 🚀 Getting Started
 
+### Youtube video link
+
+Here is the youtube video link showing how to use ScholarSwipe: [Youtube.com](https://youtu.be/Zqk7BLMhx9I)
+
 ### Prerequisites
 
 Ensure you have **Python 3.12** installed. If not, download it from the official [Python website](https://www.python.org/downloads/).
