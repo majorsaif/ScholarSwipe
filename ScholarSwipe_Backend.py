@@ -2,7 +2,7 @@
 ScholarSwipe Backend - FastAPI Server
 Integrates with Perplexity Sonar API for academic paper search and summarization
 """
-
+#import libraries 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -11,7 +11,7 @@ import os
 from perplexity import Perplexity
 import re
 
-# ✅ Hardcode API key directly (safe for hackathon use)
+# insert API key here generated from perplexity website 
 PERPLEXITY_API_KEY = "INSERT API KEY HERE"
 
 # Initialize client
@@ -28,7 +28,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+# check website state
 @app.get("/health")
 async def health_check():
     """Detailed health check"""
@@ -160,7 +160,7 @@ CRITICAL INSTRUCTIONS:
 
 Provide at least 10 relevant papers."""
 
-        # Call the Perplexity Sonar model
+        # call Sonar model
         response = client.chat.completions.create(
             model="sonar",
             messages=[
@@ -538,7 +538,8 @@ async def generate_bibliography(request: BibliographyRequest):
         print(f"Error generating bibliography: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to generate bibliography: {str(e)}")
 
-# Run with: uvicorn Backend:app --reload
+# Run with: uvicorn ScholarSwipe:app --reload command
 if __name__ == "__main__":
     import uvicorn
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
