@@ -1,5 +1,6 @@
-// Configuration
+// Configuration (calls to local host on device through fast api )
 const API_BASE_URL = 'http://localhost:8000'; // Update this to your FastAPI backend URL
+// in general, the localhost will be 8000
 
 // State Management
 const state = {
@@ -507,5 +508,6 @@ newSearchBtn.addEventListener('click', () => {
     state.currentIndex = 0;
     showPage(searchPage); 
 });
+
 
 console.log('ScholarSwipe initialized! Make sure your backend is running at:', API_BASE_URL);
