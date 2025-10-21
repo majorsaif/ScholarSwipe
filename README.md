@@ -1,6 +1,6 @@
 # ScholarSwipe - Match with your next citation
 
-A hackathon project built using FastAPI and the Perplexity Sonar API to help students and researchers quickly find, swipe, and save AI-summarized academic papers from trusted sources. Export liked papers for easy literature review and bibliographies..
+A hackathon project built using FastAPI and the Perplexity Sonar API to help students and researchers quickly find, swipe, and save AI-summarized academic papers from trusted sources. Export liked papers for easy literature review and bibliographies.
 
 ---
 
