@@ -13,7 +13,7 @@ ScholarSwipe is designed to streamline the process of discovering relevant acade
 ## ⚙️ Features
 
 - **FastAPI Backend:** Handles queries to the Perplexity Sonar API and serves AI-generated summaries.  
-- **React Frontend:** Provides a swipeable interface for users to browse academic papers.  
+- **Static Frontend (HTML/CSS/Vanilla JavaScript):** Provides a swipeable interface implemented with JS.
 - **AI-Powered Summaries:** Each paper includes key findings, methodology, limitations, relevance, and credibility scores.  
 - **Export Functionality:** Users can export their liked papers CSV or bibliography for further analysis.
 
